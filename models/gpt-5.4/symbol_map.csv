@@ -1,0 +1,13 @@
+xtb_ticker,market_symbol,asset_class,quote_currency,status,notes
+BTCUSD,BTC-USD,cryptocurrency cfd,USD,active,Bitcoin
+ETHUSD,ETH-USD,cryptocurrency cfd,USD,active,Ethereum
+MSFT,MSFT,stock,USD,active,Microsoft
+TSLA,TSLA,stock,USD,active,Tesla
+AAPL,AAPL,stock,USD,active,Apple
+NVDA,NVDA,stock,USD,active,Nvidia
+AMZN,AMZN,stock,USD,active,Amazon
+META,META,stock,USD,active,Meta
+GOOGL,GOOGL,stock,USD,active,Alphabet
+QQQ,QQQ,etf,USD,active,Nasdaq 100 ETF
+SPY,SPY,etf,USD,active,S&P 500 ETF
+GLD,GLD,etf,USD,active,Gold ETF

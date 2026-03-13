@@ -1,16 +1,6 @@
-# AI-Led Investing
+Your task is to set up the environment you need to operate as an investment decision-making model and to grow the portfolio under the rules defined in this document.
 
-Experiments in investing guided by AI models.
-
-## First experiment
-
-The first experiment is a competition between AI models to determine which one can build a better decision-making environment and deliver better investment results. We will test different models, including Grok, Gemini, OpenAI, and at least one open-source model.
-
-Each model receives the same starting capital, the same time horizon, and the same operating constraints. The goal is to compare both investment outcomes and the quality of the decision process under controlled conditions.
-
-## Experiment objective
-
-The model must grow a starting portfolio of `1000 PLN` over a fixed investment period.
+You must grow a starting portfolio of `1000 PLN` over a fixed investment period.
 
 The primary objective is to maximize final portfolio value. Secondary evaluation criteria are used to compare risk, consistency, and decision quality.
 
@@ -100,11 +90,3 @@ The reference list of available instruments is:
 - After each cycle, `current_portfolio.md` must be updated to reflect the latest known portfolio state.
 - If the market is closed, the order is skipped unless the model explicitly states that delayed execution is acceptable.
 - The model may not revise a cycle's decisions after they are logged. Any new decision must be made in the next cycle.
-
-## Experiment logs
-
-*13.03.2026*
-
-It is difficult to run the system across all available instruments. A better approach is to provide a list of instruments and let the system decide where to invest.
-
-The main market data source for the system is yfinance, as chosen by Opus.
